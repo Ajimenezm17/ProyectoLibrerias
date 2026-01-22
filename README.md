@@ -1,11 +1,11 @@
-Comandos para crear el entorno virtual y las librerias que estan en nuetro requeriments.txt  
+# Comandos para crear el entorno virtual y las librerias que estan en nuetro requeriments.txt  
 
-1º Comando:  
+**1º Comando:**  
 
 PS C:\Python\ProyectoLibrerias> python -m venv practica_diccionarios  
 
   
-2º Comando:  
+**2º Comando:**  
 
 PS C:\Python\ProyectoLibrerias> .\practica_diccionarios\Scripts\Activate.ps1  
   
@@ -13,11 +13,11 @@ Tras el segundo comando veremos que la activacion ha ido bien ya que mostrara el
 (practica_diccionarios) PS C:\Python\ProyectoLibrerias>   
  
 Vamos con la instalacion de la librerias.  
-3º Comando:  
+**3º Comando:**  
 (practica_diccionarios) PS C:\Python\ProyectoLibrerias> python -m pip install -r requirements.txt  
   
 Vamos a ver la lista de librerias que tenemos descargadas.  
-4º Comando:  
+**4º Comando:** 
 (practica_diccionarios) PS C:\Python\ProyectoLibrerias> python -m pip list  
 
 Package         Version  
